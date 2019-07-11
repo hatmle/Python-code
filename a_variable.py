@@ -20,4 +20,5 @@ def main():
     Slary=12544.5
     print(Slary,type(Slary))
 
-if __name__ == '__main__':main()
+if __name__ == '__main__':
+    main()
