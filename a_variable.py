@@ -37,6 +37,24 @@ def main():
     Student.clear()
 
     print(Student,type(Student))
-
+    
+    # string
+    Data="software engineer"
+    print(Data[0:5])
+    
+    # List
+    Ages=[44,33,45,33,54]
+    Ages.append(100)
+    Ages.insert(0,33)
+    print(Ages)
+    
+    # Tuples
+    # Once a tuple is created, you cannot add items to it and remove items from it. Tuples are unchangeable.
+    Ages_tuple=(44,33,45,33,54)
+    print(Ages_tuple)
+    # can delete the tuple completely
+    del Ages_tuple    
+    # Python has two built-in methods that you can use on tuples (index and count).
+    
 if __name__ == '__main__':
     main()
