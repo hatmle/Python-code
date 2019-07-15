@@ -26,3 +26,4 @@ def main_read_exception():
     
 if __name__ == '__main__':
     main()
+    main_read_exception()
